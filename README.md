@@ -33,11 +33,11 @@ Relembrando a Pirâmide de Testes, os níveis se organizam da seguinte forma:
 
 ```
         /‾‾‾‾‾‾‾‾‾‾‾\
-       /   E2E / UI    \        ← Poucos, lentos, caros (é aqui que o Playwright atua)
+       /   E2E / UI   \        ← Poucos, lentos, caros (é aqui que o Playwright atua)
       /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\
-     /    Integração        \    ← Quantidade intermediária
-    /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\
-   /       Unitários            \  ← Muitos, rápidos, baratos
+     /    Integração     \    ← Quantidade intermediária
+    /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\
+   /       Unitários        \  ← Muitos, rápidos, baratos
   /‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\
 ```
 
@@ -434,7 +434,7 @@ npx playwright codegen https://<seu-usuario>.github.io/02-TesteAutomatizado/
 
 Ao finalizar, o aluno deve:
 - Copiar o código gerado pelo Codegen.
-- Salvá-lo em `tests/qs-academico-codegen.spec.ts`.
+- Salvá-lo em `tests/qs-academico-codegen.spec.ts`. (*este arquivo não existe, você vai criá-lo*)
 - Executar o teste para confirmar que funciona: `npx playwright test qs-academico-codegen --headed`
 
 **Reflexão:** *Observe o código gerado. Que tipo de seletores o Codegen utilizou? São os mais indicados?*
